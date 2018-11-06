@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SimquizComponent } from './simquiz/simquiz.component';
+import { AdvquizComponent } from './advquiz/advquiz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     DashboardComponent,
-    SimquizComponent
+    SimquizComponent,
+    AdvquizComponent
   ],
   imports: [
     BrowserModule,
